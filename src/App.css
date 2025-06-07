@@ -1,0 +1,25 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.footer{
+  width: 100%;
+  background-color: #1c1b29;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    padding: 0 1rem;
+  }
+  .footer {
+    font-size: 0.8rem;
+  }
+  
+}
+
