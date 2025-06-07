@@ -46,7 +46,7 @@ function Home({ref}) {
         </p>
       </div>
       <div className="image" ref={imageRef}>
-        <img src="./src/assets/CV-35.jpg" alt="Portrait" />
+        <img src="assets/CV-35.jpg" alt="Portrait" />
       </div>
     </div>
   );
