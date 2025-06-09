@@ -81,7 +81,7 @@
         align-items: center;
         gap: 1rem;
         padding: 1rem 20px 2rem 20px;
-        height: auto;
+        height: 100vh ;
     }
     .home .info{
         width: 100%;

@@ -10,7 +10,7 @@ function ProjetCard({data}) {
   const gitRef = useRef(null);
   const techRef = useRef(null);
   
-  useIntersecting(cardRef, 0.1, 0);
+  useIntersecting(cardRef, 0.2, 0);
   useIntersecting(imgRef, 0.2, 0.1);
   useIntersecting(h1Ref, 0.2, 0.1);
   useIntersecting(descRef, 0.2, 0.2);

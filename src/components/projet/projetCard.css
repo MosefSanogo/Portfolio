@@ -6,8 +6,8 @@
     transition: all 200ms ease;
     display: flex;
     flex-direction: column;
-    transform: translateY(50px);
     opacity: 0;
+    transform: translateY(50px);
 }
 .projet-card:hover{
     box-shadow: 4px 4px 4px 4px #2c2a4f,-4px -4px 4px 4px #2c2a4f;

@@ -13,7 +13,7 @@ function Project({ref}) {
   return (
     <div className='project' ref={ref}>
       <h1 ref={h1Ref}>Projets</h1>
-      <div className="project-list" ref={cardRef}>
+      <div className="project-list">
         {projects.map((project, index) => (
           <ProjetCard key={index} data={project} />
         ))}
