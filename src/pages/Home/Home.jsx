@@ -42,7 +42,10 @@ function Home({ref}) {
         <h1 ref={h1Ref}>Mohamed SANOGO</h1>
         <h2 ref={h2Ref}>Développeur Full Stack</h2>
         <p ref={pRef}>
-          Passionné par le développement web et mobile, je conçois des solutions modernes avec React, NodeJs, Express et Java.
+           Étudiant en Master 1 Informatique à l'Université Le Havre
+              Normandie, passionné par le développement web (Front-end et
+              Back-end). Je suis à la recherche d’une alternance pour l’année
+              scolaire 2025-2026 dans le cadre de mon master 2. 
         </p>
       </div>
       <div className="image" ref={imageRef}>

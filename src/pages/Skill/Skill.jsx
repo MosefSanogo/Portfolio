@@ -1,10 +1,12 @@
 import React, {  useRef } from 'react'
 import './skill.css'
 import { FaAngular, FaBackspace, FaCss3, FaDatabase, FaFigma, FaFileExcel, FaFilePowerpoint, FaFileWord, FaGit, FaGithub, FaHtml5, FaJava, FaJs, FaNodeJs, FaPython, FaReact } from 'react-icons/fa'
-import { SiAndroidstudio, SiExpress, SiFirebase, SiMongodb, SiMysql, SiPhp, SiPostgresql, SiPostman, SiProcessingfoundation, SiTailwindcss, SiTypescript, SiVirustotal, SiVsco } from 'react-icons/si';
+import { SiAndroidstudio, SiAxios, SiExpress, SiFarfetch, SiFirebase, SiJupyter, SiMongodb, SiMysql, SiPhp, SiPostgresql, SiPostman, SiProcessingfoundation, SiSpyderide, SiTailwindcss, SiTypescript, SiVirustotal, SiVsco } from 'react-icons/si';
 import { GiSpikyEclipse } from 'react-icons/gi';
-import { VscCode } from 'react-icons/vsc';
+import { VscFileCode } from 'react-icons/vsc';
 import { useIntersecting } from '../../Methods/Intersecting';
+import { AiOutlineCode } from 'react-icons/ai';
+import { FaVirusCovid } from 'react-icons/fa6';
 function Skill({ref}) {
     const containRef = ref;
     const h1Ref = useRef(null);
@@ -54,12 +56,12 @@ function Skill({ref}) {
                         <p className='item-description'>Tailwind CSS</p>
                     </div>
                     <div className="item-card">
-                        <div className="svg"><FaJava/> </div>
-                        <p className='item-description'>JSP</p>
+                        <div className="svg"><SiAxios/> </div>
+                        <p className='item-description'>Axios</p>
                     </div>
                     <div className="item-card">
-                        <div className="svg"><VscCode/> </div>
-                        <p className='item-description'>JSTL</p>
+                        <div className="svg"><SiFarfetch/> </div>
+                        <p className='item-description'>Fetch</p>
                     </div>
                 </div>
             </div>
@@ -104,6 +106,15 @@ function Skill({ref}) {
                         <p className='item-description'>Firebase</p>
                     </div>
 
+                    <div className="item-card">
+                        <div className="svg"><VscFileCode/> </div>
+                        <p className='item-description'>JSP</p>
+                    </div>
+                    <div className="item-card">
+                        <div className="svg"><AiOutlineCode/> </div>
+                        <p className='item-description'>JSTL</p>
+                    </div>
+
                 </div>
             </div>
 
@@ -139,12 +150,12 @@ function Skill({ref}) {
                         <p className='item-description'>Processing</p>
                     </div>
                     <div className="item-card">
-                        <div className="svg"><FaFileWord/> </div>
-                        <p className='item-description'>Word</p>
+                        <div className="svg"><SiSpyderide/> </div>
+                        <p className='item-description'>Spyder</p>
                     </div>
                     <div className="item-card">
-                        <div className="svg"><FaFileExcel/> </div>
-                        <p className='item-description'>Excel</p>
+                        <div className="svg"><SiJupyter/> </div>
+                        <p className='item-description'>Jupyter</p>
                     </div>
                 
 
