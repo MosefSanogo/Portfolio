@@ -82,7 +82,7 @@
         gap: 1rem;
         padding: 1rem 20px 2rem 20px;
         height: 100vh ;
-
+        margin-top: 0;
     }
     .home .info{
         width: 100%;
@@ -91,7 +91,7 @@
     }
     .home .image{
         width: 80%;
-        height: 350px;
+        height: 320px;
     }
     
 }
@@ -101,7 +101,7 @@
         width: 100%;
     }
     .home .info{
-        width: 90%;
+        width: 95%;
         text-align: center;
     }
     .home .info h1{
