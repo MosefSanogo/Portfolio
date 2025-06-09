@@ -16,6 +16,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .project .project-list{
     display: flex;
@@ -24,6 +26,8 @@
     justify-content: center;
     width: 100%;
     opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 @media screen and (max-width: 880px) {
