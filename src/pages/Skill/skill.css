@@ -138,13 +138,8 @@
     .skill h1 {
       font-size: 1.2rem;
     }
-    
-    .skill .items {
-      padding: 0 20px;
-    }
-    
     .skill .card {
-
+      width: 100%;
       padding: 10px;
     }
     .skill .card:hover {

@@ -14,9 +14,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #root {
-    padding: 0 1rem;
-  }
+
   .footer {
     font-size: 0.8rem;
   }

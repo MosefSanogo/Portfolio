@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 75%;
     padding: 20px 30px;
-
     margin: 2rem auto;
     justify-content: center;
     align-items: center ;
@@ -112,7 +111,7 @@ box-shadow: 4px 4px 4px 4px #2c2a4f,-4px -4px 4px 4px #2c2a4f;
         font-size: 0.85rem;
     }
     .contact .contact_info a{
-        font-size: 0.8rem;
+        font-size: 0.65rem;
         padding: 5px 10px;
     }
     
@@ -129,7 +128,7 @@ box-shadow: 4px 4px 4px 4px #2c2a4f,-4px -4px 4px 4px #2c2a4f;
         font-size: 0.8rem;
     }
     .contact .contact_info a{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         padding: 4px 8px;
     }
     

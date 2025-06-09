@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 480px) {
     .projet-card{
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
     }
     .projet-card:hover{
