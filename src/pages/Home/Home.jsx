@@ -44,8 +44,7 @@ function Home({ref}) {
         <p ref={pRef}>
            Étudiant en Master 1 Informatique à l'Université Le Havre
               Normandie, passionné par le développement web (Front-end et
-              Back-end). Je suis à la recherche d’une alternance pour l’année
-              scolaire 2025-2026 dans le cadre de mon master 2. 
+              Back-end). Je suis à la recherche d’une alternance pour une durée de 1 ans à 2 ans. 
         </p>
       </div>
       <div className="image" ref={imageRef}>
